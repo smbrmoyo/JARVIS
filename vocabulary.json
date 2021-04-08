@@ -1,0 +1,23 @@
+{"intents": [
+        {"tag": "Greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up"],
+         "responses": ["Hello there, how can I help?", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "Emergency",
+         "patterns": ["I would like to call 911", "I injured myself", "I need some assistance", "911", "I cut myself", "Is it 911", "It is an emergency", "l'eau glacée est entrain de bruler la maison"],
+         "responses": ["Could you describe your case?"],
+         "context_set": ""
+        },
+        {"tag": "Appointment",
+         "patterns": ["Appointment", "I would like to take an appointment", "I have an appointment", "when can I take an appointment"],
+         "responses": ["What doctor and what date?"],
+         "context_set": ""
+        },
+        {"tag": "Find hospital",
+          "patterns": ["Find nearest hospital", "Find emergency", "Where is the hospital", "The closest hospital"],
+          "responses": ["Finding nearest  hospital"],
+          "context_set": ""
+        }
+   ]
+}
